@@ -142,7 +142,7 @@ class Cimongo_base {
 	 * @since v1.0.0
 	 */
 	private function connection_string(){
-		$this->CI->config->load("cimongo");
+		//$this->CI->config->load("cimongo");
 		$this->host	= trim($this->CI->config->item('host'));
 		$this->port = trim($this->CI->config->item('port'));
 		$this->user = trim($this->CI->config->item('user'));
